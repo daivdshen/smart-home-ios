@@ -1,0 +1,43 @@
+PODS:
+  - CGModule (0.7.4):
+    - CocoaAsyncSocket (~> 7.6)
+    - CocoaLumberjack (~> 3.7.0)
+    - FMDB (~> 2.7.5)
+    - RxSwift (~> 6.1)
+    - TPCircularBuffer (= 1.6.1)
+  - CocoaAsyncSocket (7.6.5)
+  - CocoaLumberjack (3.7.4):
+    - CocoaLumberjack/Core (= 3.7.4)
+  - CocoaLumberjack/Core (3.7.4)
+  - FMDB (2.7.12):
+    - FMDB/standard (= 2.7.12)
+  - FMDB/Core (2.7.12)
+  - FMDB/standard (2.7.12):
+    - FMDB/Core
+  - RxSwift (6.9.0)
+  - TPCircularBuffer (1.6.1)
+
+DEPENDENCIES:
+  - CGModule (= 0.7.4)
+
+SPEC REPOS:
+  https://bitbucket.org/comelit/public-comelit-pods.git:
+    - CGModule
+  trunk:
+    - CocoaAsyncSocket
+    - CocoaLumberjack
+    - FMDB
+    - RxSwift
+    - TPCircularBuffer
+
+SPEC CHECKSUMS:
+  CGModule: d0ae5e9b1ca24f14c41184b1887a3f74014a0a5c
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  CocoaLumberjack: 543c79c114dadc3b1aba95641d8738b06b05b646
+  FMDB: 728731dd336af3936ce00f91d9d8495f5718a0e6
+  RxSwift: 31649ace6aceeb422e16ff71c60804f9c3281ed9
+  TPCircularBuffer: c13243556527551c4d320709c7b14a6d20cdc30a
+
+PODFILE CHECKSUM: 13158349434437f953ca4883ef732f2ce184a16d
+
+COCOAPODS: 1.16.2
