@@ -1,0 +1,6 @@
+framework module DCUniAdGm {
+  umbrella header "DCUniAdGm.h"
+  export *
+
+  module * { export * }
+}

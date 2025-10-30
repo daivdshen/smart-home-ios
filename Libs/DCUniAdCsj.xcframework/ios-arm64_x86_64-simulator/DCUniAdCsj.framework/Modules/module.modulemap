@@ -1,0 +1,6 @@
+framework module DCUniAdCsj {
+  umbrella header "DCUniAdCsj.h"
+  export *
+
+  module * { export * }
+}
