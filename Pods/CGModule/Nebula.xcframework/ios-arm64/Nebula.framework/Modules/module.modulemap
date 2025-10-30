@@ -1,0 +1,6 @@
+framework module Nebula {
+  umbrella header "Nebula-umbrella.h"
+
+  export *
+  module * { export * }
+}

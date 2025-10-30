@@ -1,0 +1,6 @@
+framework module CMGMultimedia {
+  umbrella header "CMGMultimedia-umbrella.h"
+
+  export *
+  module * { export * }
+}

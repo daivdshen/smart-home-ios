@@ -1,0 +1,6 @@
+framework module CGModule {
+  umbrella header "CGModule.h"
+  export *
+
+  module * { export * }
+}

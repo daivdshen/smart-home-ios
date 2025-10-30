@@ -1,0 +1,6 @@
+framework module libp2p {
+  umbrella header "P2P-umbrella.h"
+
+  export *
+  module * { export * }
+}

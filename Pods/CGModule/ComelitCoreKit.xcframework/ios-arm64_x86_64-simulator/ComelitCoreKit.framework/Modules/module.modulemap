@@ -1,0 +1,11 @@
+framework module ComelitCoreKit {
+  umbrella header "ComelitCoreKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ComelitCoreKit.Swift {
+  header "ComelitCoreKit-Swift.h"
+  requires objc
+}

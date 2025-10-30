@@ -1,0 +1,6 @@
+framework module cspstack {
+  umbrella header "CspStack-umbrella.h"
+
+  export *
+  module * { export * }
+}

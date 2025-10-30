@@ -1,0 +1,87 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 17565423861651303395 (0xf3c4ebefc2e56be3)
+    Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=IT, ST=Bergamo, O=Comelit Group Spa, OU=Comelit Group Spa - Cloud Lab, CN=Cloud Lab CA
+        Validity
+            Not Before: Jan  1 00:00:00 1900 GMT
+            Not After : Jun 16 11:38:45 2565 GMT
+        Subject: C=IT, ST=Bergamo, O=Comelit Group Spa, OU=Comelit Group Spa - Cloud Lab, CN=Cloud Lab CA
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:cd:9a:0c:68:7c:43:ea:1b:39:e2:11:40:7a:76:
+                    f6:f1:10:7b:dc:eb:6f:3e:48:77:8a:0c:4d:ac:b3:
+                    07:90:4f:6b:23:37:b4:92:7e:cf:83:69:42:99:0b:
+                    f8:34:fa:7e:3d:50:c6:fd:66:ea:dc:c0:64:2c:3c:
+                    da:ad:a1:2a:8e:1e:c1:95:a0:d5:45:1a:7c:8b:40:
+                    4f:82:7c:38:86:c0:94:d2:6f:86:3c:f7:93:6d:93:
+                    2d:38:7b:42:e5:ba:29:1e:a8:01:47:ab:30:0e:61:
+                    33:22:79:f1:02:8f:08:e9:a7:b2:0f:f1:d7:ad:44:
+                    37:59:5c:38:07:3c:3c:59:b2:6d:b8:41:25:72:94:
+                    71:a8:ea:41:26:22:89:20:72:46:14:3c:a3:fd:da:
+                    6f:d9:fa:42:da:49:93:ba:9f:60:40:d1:20:08:66:
+                    92:71:45:27:46:2c:23:12:f5:de:47:12:72:f0:1b:
+                    4f:ae:40:0d:ce:6b:9f:23:db:f4:a4:43:63:b7:c9:
+                    d9:32:f3:82:09:37:42:7c:0a:0d:b8:9c:35:53:28:
+                    87:5e:56:c0:47:fc:5c:89:a4:29:f1:d6:94:e3:49:
+                    7e:51:a0:27:65:6e:f1:57:8d:b2:d3:f0:5d:e6:25:
+                    54:6a:a5:af:95:af:4e:be:d5:96:a2:f3:47:7f:5b:
+                    59:cd
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                B7:8F:30:AE:34:35:F0:6D:69:6C:40:89:2F:EE:FD:2D:32:18:86:B4
+            X509v3 Authority Key Identifier: 
+                keyid:B7:8F:30:AE:34:35:F0:6D:69:6C:40:89:2F:EE:FD:2D:32:18:86:B4
+                DirName:/C=IT/ST=Bergamo/O=Comelit Group Spa/OU=Comelit Group Spa - Cloud Lab/CN=Cloud Lab CA
+                serial:F3:C4:EB:EF:C2:E5:6B:E3
+
+            X509v3 Basic Constraints: 
+                CA:TRUE
+            X509v3 Subject Alternative Name: 
+                email:comelit@comelit.it
+    Signature Algorithm: sha1WithRSAEncryption
+         6b:45:4c:e7:a5:43:48:89:e5:4b:39:55:3d:84:cd:08:c1:d4:
+         40:15:cf:27:ec:72:40:ae:10:8c:7f:c6:d0:89:bd:9c:38:91:
+         05:f1:7e:65:ee:58:79:e3:a0:8b:eb:7f:a4:97:84:7d:fa:85:
+         74:f8:d7:ce:90:fc:9f:27:4e:56:5e:5d:83:78:58:09:64:51:
+         31:b4:05:ce:b9:d6:e1:b9:b1:3c:bd:1a:58:ea:71:c1:28:9e:
+         cf:14:03:e4:2a:22:6d:70:d2:39:0a:e1:ad:7d:0f:33:25:e9:
+         90:b3:2b:a7:09:10:66:a4:5f:0d:ae:db:1f:ef:ea:36:79:b8:
+         31:09:92:db:9b:10:96:95:d9:83:cf:ee:15:2c:f4:ce:35:3c:
+         84:5c:64:a4:bd:59:36:75:3a:12:23:08:c5:98:d4:bb:67:44:
+         b8:38:7d:46:29:e3:27:d0:8d:12:13:22:9b:6a:d9:b7:ce:79:
+         3c:e6:32:08:3e:26:7f:bf:ba:f6:59:5f:e8:ea:86:32:9a:95:
+         87:f1:f1:43:15:fe:65:67:f8:6a:2e:df:69:0f:9f:0e:37:70:
+         bf:d7:ee:38:57:7f:28:0e:bf:7b:f5:f5:bd:fe:67:4e:c9:a2:
+         b2:29:81:da:6a:21:1c:8b:52:4b:a8:97:d8:a5:21:54:54:3a:
+         af:70:e7:bf
+-----BEGIN CERTIFICATE-----
+MIIEejCCA2KgAwIBAgIJAPPE6+/C5WvjMA0GCSqGSIb3DQEBBQUAMHoxCzAJBgNV
+BAYTAklUMRAwDgYDVQQIEwdCZXJnYW1vMRowGAYDVQQKExFDb21lbGl0IEdyb3Vw
+IFNwYTEmMCQGA1UECxMdQ29tZWxpdCBHcm91cCBTcGEgLSBDbG91ZCBMYWIxFTAT
+BgNVBAMTDENsb3VkIExhYiBDQTAiGA8xOTAwMDEwMTAwMDAwMFoYDzI1NjUwNjE2
+MTEzODQ1WjB6MQswCQYDVQQGEwJJVDEQMA4GA1UECBMHQmVyZ2FtbzEaMBgGA1UE
+ChMRQ29tZWxpdCBHcm91cCBTcGExJjAkBgNVBAsTHUNvbWVsaXQgR3JvdXAgU3Bh
+IC0gQ2xvdWQgTGFiMRUwEwYDVQQDEwxDbG91ZCBMYWIgQ0EwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQDNmgxofEPqGzniEUB6dvbxEHvc628+SHeKDE2s
+sweQT2sjN7SSfs+DaUKZC/g0+n49UMb9ZurcwGQsPNqtoSqOHsGVoNVFGnyLQE+C
+fDiGwJTSb4Y895Ntky04e0LluikeqAFHqzAOYTMiefECjwjpp7IP8detRDdZXDgH
+PDxZsm24QSVylHGo6kEmIokgckYUPKP92m/Z+kLaSZO6n2BA0SAIZpJxRSdGLCMS
+9d5HEnLwG0+uQA3Oa58j2/SkQ2O3ydky84IJN0J8Cg24nDVTKIdeVsBH/FyJpCnx
+1pTjSX5RoCdlbvFXjbLT8F3mJVRqpa+Vr06+1Zai80d/W1nNAgMBAAGjgf4wgfsw
+HQYDVR0OBBYEFLePMK40NfBtaWxAiS/u/S0yGIa0MIGsBgNVHSMEgaQwgaGAFLeP
+MK40NfBtaWxAiS/u/S0yGIa0oX6kfDB6MQswCQYDVQQGEwJJVDEQMA4GA1UECBMH
+QmVyZ2FtbzEaMBgGA1UEChMRQ29tZWxpdCBHcm91cCBTcGExJjAkBgNVBAsTHUNv
+bWVsaXQgR3JvdXAgU3BhIC0gQ2xvdWQgTGFiMRUwEwYDVQQDEwxDbG91ZCBMYWIg
+Q0GCCQDzxOvvwuVr4zAMBgNVHRMEBTADAQH/MB0GA1UdEQQWMBSBEmNvbWVsaXRA
+Y29tZWxpdC5pdDANBgkqhkiG9w0BAQUFAAOCAQEAa0VM56VDSInlSzlVPYTNCMHU
+QBXPJ+xyQK4QjH/G0Im9nDiRBfF+Ze5YeeOgi+t/pJeEffqFdPjXzpD8nydOVl5d
+g3hYCWRRMbQFzrnW4bmxPL0aWOpxwSiezxQD5CoibXDSOQrhrX0PMyXpkLMrpwkQ
+ZqRfDa7bH+/qNnm4MQmS25sQlpXZg8/uFSz0zjU8hFxkpL1ZNnU6EiMIxZjUu2dE
+uDh9RinjJ9CNEhMim2rZt855POYyCD4mf7+69llf6OqGMpqVh/HxQxX+ZWf4ai7f
+aQ+fDjdwv9fuOFd/KA6/e/X1vf5nTsmisimB2mohHItSS6iX2KUhVFQ6r3Dnvw==
+-----END CERTIFICATE-----

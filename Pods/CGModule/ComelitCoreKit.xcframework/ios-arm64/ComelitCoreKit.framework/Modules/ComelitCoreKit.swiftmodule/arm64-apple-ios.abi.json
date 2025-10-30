@@ -1,0 +1,533 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "ComelitCoreKit",
+    "printedName": "ComelitCoreKit",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ComelitCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
+        "declKind": "Import",
+        "moduleName": "ComelitCoreKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ComelitCoreKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
+        "declKind": "Import",
+        "moduleName": "ComelitCoreKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ComelitEventBus",
+        "printedName": "ComelitEventBus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "comelitEventObservable",
+            "printedName": "comelitEventObservable",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<any ObjectiveC.NSObjectProtocol>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObjectProtocol",
+                    "printedName": "any ObjectiveC.NSObjectProtocol",
+                    "usr": "c:objc(pl)NSObject"
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14ComelitCoreKit0A8EventBusC07comelitD10Observable7RxSwift0G0CySo8NSObject_pGvp",
+            "mangledName": "$s14ComelitCoreKit0A8EventBusC07comelitD10Observable7RxSwift0G0CySo8NSObject_pGvp",
+            "moduleName": "ComelitCoreKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Observable",
+                    "printedName": "RxSwift.Observable<any ObjectiveC.NSObjectProtocol>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSObjectProtocol",
+                        "printedName": "any ObjectiveC.NSObjectProtocol",
+                        "usr": "c:objc(pl)NSObject"
+                      }
+                    ],
+                    "usr": "s:7RxSwift10ObservableC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14ComelitCoreKit0A8EventBusC07comelitD10Observable7RxSwift0G0CySo8NSObject_pGvg",
+                "mangledName": "$s14ComelitCoreKit0A8EventBusC07comelitD10Observable7RxSwift0G0CySo8NSObject_pGvg",
+                "moduleName": "ComelitCoreKit",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ComelitEventBus",
+                "printedName": "ComelitCoreKit.ComelitEventBus",
+                "usr": "c:@M@ComelitCoreKit@objc(cs)ComelitEventBus"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ComelitCoreKit@objc(cs)ComelitEventBus(im)init",
+            "mangledName": "$s14ComelitCoreKit0A8EventBusCACycfc",
+            "moduleName": "ComelitCoreKit",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "post",
+            "printedName": "post(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSObjectProtocol",
+                "printedName": "any ObjectiveC.NSObjectProtocol",
+                "usr": "c:objc(pl)NSObject"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ComelitCoreKit@objc(cs)ComelitEventBus(im)post:",
+            "mangledName": "$s14ComelitCoreKit0A8EventBusC4postyySo8NSObject_pF",
+            "moduleName": "ComelitCoreKit",
+            "overriding": true,
+            "objc_name": "post:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ComelitCoreKit@objc(cs)ComelitEventBus",
+        "mangledName": "$s14ComelitCoreKit0A8EventBusC",
+        "moduleName": "ComelitCoreKit",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)ToloEventBus",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ComelitCoreKit.ToloEventBus",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReactiveCompatible",
+            "printedName": "ReactiveCompatible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReactiveBase",
+                "printedName": "ReactiveBase",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7RxSwift18ReactiveCompatibleP",
+            "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ComelitEngineWrapper",
+        "printedName": "ComelitEngineWrapper",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "comelitEventObservable",
+            "printedName": "comelitEventObservable",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<any ObjectiveC.NSObjectProtocol>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObjectProtocol",
+                    "printedName": "any ObjectiveC.NSObjectProtocol",
+                    "usr": "c:objc(pl)NSObject"
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So20ComelitEngineWrapperC0A7CoreKitE22comelitEventObservable7RxSwift0H0CySo8NSObject_pGvp",
+            "mangledName": "$sSo20ComelitEngineWrapperC0A7CoreKitE22comelitEventObservable7RxSwift0H0CySo8NSObject_pGvp",
+            "moduleName": "ComelitCoreKit",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Observable",
+                    "printedName": "RxSwift.Observable<any ObjectiveC.NSObjectProtocol>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSObjectProtocol",
+                        "printedName": "any ObjectiveC.NSObjectProtocol",
+                        "usr": "c:objc(pl)NSObject"
+                      }
+                    ],
+                    "usr": "s:7RxSwift10ObservableC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So20ComelitEngineWrapperC0A7CoreKitE22comelitEventObservable7RxSwift0H0CySo8NSObject_pGvg",
+                "mangledName": "$sSo20ComelitEngineWrapperC0A7CoreKitE22comelitEventObservable7RxSwift0H0CySo8NSObject_pGvg",
+                "moduleName": "ComelitCoreKit",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)ComelitEngineWrapper",
+        "moduleName": "ComelitCoreKit",
+        "isOpen": true,
+        "objc_name": "ComelitEngineWrapper",
+        "declAttributes": [
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReactiveCompatible",
+            "printedName": "ReactiveCompatible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReactiveBase",
+                "printedName": "ReactiveBase",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7RxSwift18ReactiveCompatibleP",
+            "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Observable",
+        "printedName": "Observable",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "ofType",
+            "printedName": "ofType(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Observable",
+                "printedName": "RxSwift.Observable<τ_1_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ],
+                "usr": "s:7RxSwift10ObservableC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_1_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7RxSwift10ObservableC14ComelitCoreKitSo8NSObjectRzlE6ofTypeyACyqd__Gqd__mlF",
+            "mangledName": "$s7RxSwift10ObservableC14ComelitCoreKitSo8NSObjectRzlE6ofTypeyACyqd__Gqd__mlF",
+            "moduleName": "ComelitCoreKit",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : ObjectiveC.NSObjectProtocol>",
+            "sugared_genericSig": "<Element, T where Element : ObjectiveC.NSObjectProtocol>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7RxSwift10ObservableC",
+        "mangledName": "$s7RxSwift10ObservableC",
+        "moduleName": "RxSwift",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<Element>",
+        "isExternal": true,
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ObservableType",
+            "printedName": "ObservableType",
+            "usr": "s:7RxSwift14ObservableTypeP",
+            "mangledName": "$s7RxSwift14ObservableTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ObservableConvertibleType",
+            "printedName": "ObservableConvertibleType",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7RxSwift25ObservableConvertibleTypeP",
+            "mangledName": "$s7RxSwift25ObservableConvertibleTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

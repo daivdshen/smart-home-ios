@@ -1,0 +1,6 @@
+framework module ComelitVipKit {
+  umbrella header "ComelitVipKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Mosquitto {
+  umbrella header "Mosquitto-umbrella.h"
+
+  export *
+  module * { export * }
+}

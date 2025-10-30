@@ -1,0 +1,6 @@
+framework module comelitutils {
+  umbrella header "ComelitUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}

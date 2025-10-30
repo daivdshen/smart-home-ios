@@ -1,0 +1,6 @@
+framework module cmpot {
+  umbrella header "Cmpot-umbrella.h"
+
+  export *
+  module * { export * }
+}

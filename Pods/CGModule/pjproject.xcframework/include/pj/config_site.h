@@ -1,0 +1,6 @@
+#define PJ_HAS_IPV6 1
+#define PJ_HAS_FLOATING_POINT			1
+#define PJ_LOG_MAX_LEVEL 6
+// disable background VoIP socket, use PushKit
+#undef PJ_IPHONE_OS_HAS_MULTITASKING_SUPPORT
+#define PJ_IPHONE_OS_HAS_MULTITASKING_SUPPORT 0
