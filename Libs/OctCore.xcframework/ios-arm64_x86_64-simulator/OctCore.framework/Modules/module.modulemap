@@ -1,0 +1,6 @@
+framework module OctCore {
+  umbrella header "OctCore-umbrella.h"
+
+  export *
+  module * { export * }
+}

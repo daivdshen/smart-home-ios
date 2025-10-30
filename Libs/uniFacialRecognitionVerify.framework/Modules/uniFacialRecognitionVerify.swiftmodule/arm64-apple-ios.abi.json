@@ -1,0 +1,4259 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "AliyunFaceAuthFacade",
+        "printedName": "AliyunFaceAuthFacade",
+        "declKind": "Import",
+        "moduleName": "uniFacialRecognitionVerify",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DCloudUTSFoundation",
+        "printedName": "DCloudUTSFoundation",
+        "declKind": "Import",
+        "moduleName": "uniFacialRecognitionVerify"
+      },
+      {
+        "kind": "Import",
+        "name": "DTFIdentityManager",
+        "printedName": "DTFIdentityManager",
+        "declKind": "Import",
+        "moduleName": "uniFacialRecognitionVerify",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Dispatch",
+        "printedName": "Dispatch",
+        "declKind": "Import",
+        "moduleName": "uniFacialRecognitionVerify"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "uniFacialRecognitionVerify"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IFacialRecognitionVerifyError",
+        "printedName": "IFacialRecognitionVerifyError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "errCode",
+            "printedName": "errCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSNumber",
+                "printedName": "Foundation.NSNumber",
+                "usr": "c:objc(cs)NSNumber"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26uniFacialRecognitionVerify07IFacialcD5ErrorP7errCodeSo8NSNumberCvp",
+            "mangledName": "$s26uniFacialRecognitionVerify07IFacialcD5ErrorP7errCodeSo8NSNumberCvp",
+            "moduleName": "uniFacialRecognitionVerify",
+            "protocolReq": true,
+            "overriding": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26uniFacialRecognitionVerify07IFacialcD5ErrorP7errCodeSo8NSNumberCvg",
+                "mangledName": "$s26uniFacialRecognitionVerify07IFacialcD5ErrorP7errCodeSo8NSNumberCvg",
+                "moduleName": "uniFacialRecognitionVerify",
+                "genericSig": "<τ_0_0 where τ_0_0 : uniFacialRecognitionVerify.IFacialRecognitionVerifyError>",
+                "sugared_genericSig": "<Self where Self : uniFacialRecognitionVerify.IFacialRecognitionVerifyError>",
+                "protocolReq": true,
+                "overriding": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26uniFacialRecognitionVerify07IFacialcD5ErrorP7errCodeSo8NSNumberCvs",
+                "mangledName": "$s26uniFacialRecognitionVerify07IFacialcD5ErrorP7errCodeSo8NSNumberCvs",
+                "moduleName": "uniFacialRecognitionVerify",
+                "genericSig": "<τ_0_0 where τ_0_0 : uniFacialRecognitionVerify.IFacialRecognitionVerifyError>",
+                "sugared_genericSig": "<Self where Self : uniFacialRecognitionVerify.IFacialRecognitionVerifyError>",
+                "protocolReq": true,
+                "overriding": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26uniFacialRecognitionVerify07IFacialcD5ErrorP7errCodeSo8NSNumberCvM",
+                "mangledName": "$s26uniFacialRecognitionVerify07IFacialcD5ErrorP7errCodeSo8NSNumberCvM",
+                "moduleName": "uniFacialRecognitionVerify",
+                "genericSig": "<τ_0_0 where τ_0_0 : uniFacialRecognitionVerify.IFacialRecognitionVerifyError>",
+                "sugared_genericSig": "<Self where Self : uniFacialRecognitionVerify.IFacialRecognitionVerifyError>",
+                "protocolReq": true,
+                "overriding": true,
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:26uniFacialRecognitionVerify07IFacialcD5ErrorP",
+        "mangledName": "$s26uniFacialRecognitionVerify07IFacialcD5ErrorP",
+        "moduleName": "uniFacialRecognitionVerify",
+        "genericSig": "<τ_0_0 : DCloudUTSFoundation.IUniError>",
+        "sugared_genericSig": "<Self : DCloudUTSFoundation.IUniError>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "IUniError",
+            "printedName": "IUniError",
+            "usr": "s:19DCloudUTSFoundation9IUniErrorP",
+            "mangledName": "$s19DCloudUTSFoundation9IUniErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AsyncApiResult",
+            "printedName": "AsyncApiResult",
+            "usr": "s:19DCloudUTSFoundation14AsyncApiResultP",
+            "mangledName": "$s19DCloudUTSFoundation14AsyncApiResultP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StartFacialRecognitionVerifySuccess",
+        "printedName": "StartFacialRecognitionVerifySuccess",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "errCode",
+            "printedName": "errCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifySuccess(py)errCode",
+            "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7SuccessC7errCodeSo8NSNumberCSgvp",
+            "moduleName": "uniFacialRecognitionVerify",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Foundation.NSNumber?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifySuccess(im)errCode",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7SuccessC7errCodeSo8NSNumberCSgvg",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Foundation.NSNumber?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifySuccess(im)setErrCode:",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7SuccessC7errCodeSo8NSNumberCSgvs",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26uniFacialRecognitionVerify05StartbcD7SuccessC7errCodeSo8NSNumberCSgvM",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7SuccessC7errCodeSo8NSNumberCSgvM",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errSubject",
+            "printedName": "errSubject",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifySuccess(py)errSubject",
+            "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7SuccessC10errSubjectSSSgvp",
+            "moduleName": "uniFacialRecognitionVerify",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifySuccess(im)errSubject",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7SuccessC10errSubjectSSSgvg",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifySuccess(im)setErrSubject:",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7SuccessC10errSubjectSSSgvs",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26uniFacialRecognitionVerify05StartbcD7SuccessC10errSubjectSSSgvM",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7SuccessC10errSubjectSSSgvM",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errMsg",
+            "printedName": "errMsg",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifySuccess(py)errMsg",
+            "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7SuccessC6errMsgSSSgvp",
+            "moduleName": "uniFacialRecognitionVerify",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifySuccess(im)errMsg",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7SuccessC6errMsgSSSgvg",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifySuccess(im)setErrMsg:",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7SuccessC6errMsgSSSgvs",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26uniFacialRecognitionVerify05StartbcD7SuccessC6errMsgSSSgvM",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7SuccessC6errMsgSSSgvM",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cause",
+            "printedName": "cause",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DCloudUTSFoundation.SourceError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SourceError",
+                    "printedName": "DCloudUTSFoundation.SourceError",
+                    "usr": "c:@M@DCloudUTSFoundation@objc(cs)SourceError"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifySuccess(py)cause",
+            "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7SuccessC5cause19DCloudUTSFoundation11SourceErrorCSgvp",
+            "moduleName": "uniFacialRecognitionVerify",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DCloudUTSFoundation.SourceError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SourceError",
+                        "printedName": "DCloudUTSFoundation.SourceError",
+                        "usr": "c:@M@DCloudUTSFoundation@objc(cs)SourceError"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifySuccess(im)cause",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7SuccessC5cause19DCloudUTSFoundation11SourceErrorCSgvg",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DCloudUTSFoundation.SourceError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SourceError",
+                        "printedName": "DCloudUTSFoundation.SourceError",
+                        "usr": "c:@M@DCloudUTSFoundation@objc(cs)SourceError"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifySuccess(im)setCause:",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7SuccessC5cause19DCloudUTSFoundation11SourceErrorCSgvs",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26uniFacialRecognitionVerify05StartbcD7SuccessC5cause19DCloudUTSFoundation11SourceErrorCSgvM",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7SuccessC5cause19DCloudUTSFoundation11SourceErrorCSgvM",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Subscript",
+            "name": "subscript",
+            "printedName": "subscript(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Subscript",
+            "usr": "s:26uniFacialRecognitionVerify05StartbcD7SuccessCyypSgSScip",
+            "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7SuccessCyypSgSScip",
+            "moduleName": "uniFacialRecognitionVerify",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifySuccess(im)objectForKeyedSubscript:",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7SuccessCyypSgSScig",
+                "moduleName": "uniFacialRecognitionVerify",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifySuccess(im)setObject:forKeyedSubscript:",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7SuccessCyypSgSScis",
+                "moduleName": "uniFacialRecognitionVerify",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26uniFacialRecognitionVerify05StartbcD7SuccessCyypSgSSciM",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7SuccessCyypSgSSciM",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StartFacialRecognitionVerifySuccess",
+                "printedName": "uniFacialRecognitionVerify.StartFacialRecognitionVerifySuccess",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifySuccess"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifySuccess(im)init",
+            "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7SuccessCACycfc",
+            "moduleName": "uniFacialRecognitionVerify",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StartFacialRecognitionVerifySuccess",
+                "printedName": "uniFacialRecognitionVerify.StartFacialRecognitionVerifySuccess",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifySuccess"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UTSJSONObject",
+                "printedName": "DCloudUTSFoundation.UTSJSONObject",
+                "usr": "c:@M@DCloudUTSFoundation@objc(cs)UTSJSONObject"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifySuccess(im)init:",
+            "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7SuccessCyAC19DCloudUTSFoundation13UTSJSONObjectCcfc",
+            "moduleName": "uniFacialRecognitionVerify",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifySuccess",
+        "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7SuccessC",
+        "moduleName": "uniFacialRecognitionVerify",
+        "objc_name": "UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifySuccess",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "UTSObject",
+            "printedName": "UTSObject",
+            "usr": "s:19DCloudUTSFoundation9UTSObjectP",
+            "mangledName": "$s19DCloudUTSFoundation9UTSObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "IUTSObject",
+            "printedName": "IUTSObject",
+            "usr": "s:19DCloudUTSFoundation10IUTSObjectP",
+            "mangledName": "$s19DCloudUTSFoundation10IUTSObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DCUTSSequence",
+            "printedName": "DCUTSSequence",
+            "usr": "s:19DCloudUTSFoundation13DCUTSSequenceP",
+            "mangledName": "$s19DCloudUTSFoundation13DCUTSSequenceP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DCUniIterator",
+                    "printedName": "DCloudUTSFoundation.DCUniIterator",
+                    "usr": "s:19DCloudUTSFoundation13DCUniIteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StartFacialRecognitionVerifyOptions",
+        "printedName": "StartFacialRecognitionVerifyOptions",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "certifyId",
+            "printedName": "certifyId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptions(py)certifyId",
+            "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7OptionsC9certifyIdSSSgvp",
+            "moduleName": "uniFacialRecognitionVerify",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptions(im)certifyId",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7OptionsC9certifyIdSSSgvg",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptions(im)setCertifyId:",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7OptionsC9certifyIdSSSgvs",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26uniFacialRecognitionVerify05StartbcD7OptionsC9certifyIdSSSgvM",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7OptionsC9certifyIdSSSgvM",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "progressBarColor",
+            "printedName": "progressBarColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptions(py)progressBarColor",
+            "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7OptionsC16progressBarColorSSSgvp",
+            "moduleName": "uniFacialRecognitionVerify",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptions(im)progressBarColor",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7OptionsC16progressBarColorSSSgvg",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptions(im)setProgressBarColor:",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7OptionsC16progressBarColorSSSgvs",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26uniFacialRecognitionVerify05StartbcD7OptionsC16progressBarColorSSSgvM",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7OptionsC16progressBarColorSSSgvM",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "screenOrientation",
+            "printedName": "screenOrientation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptions(py)screenOrientation",
+            "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7OptionsC17screenOrientationSSSgvp",
+            "moduleName": "uniFacialRecognitionVerify",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptions(im)screenOrientation",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7OptionsC17screenOrientationSSSgvg",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptions(im)setScreenOrientation:",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7OptionsC17screenOrientationSSSgvs",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26uniFacialRecognitionVerify05StartbcD7OptionsC17screenOrientationSSSgvM",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7OptionsC17screenOrientationSSSgvM",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((uniFacialRecognitionVerify.StartFacialRecognitionVerifySuccess) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(uniFacialRecognitionVerify.StartFacialRecognitionVerifySuccess) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StartFacialRecognitionVerifySuccess",
+                        "printedName": "uniFacialRecognitionVerify.StartFacialRecognitionVerifySuccess",
+                        "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifySuccess"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptions(py)success",
+            "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7OptionsC7successyAA0ebcD7SuccessCcSgvp",
+            "moduleName": "uniFacialRecognitionVerify",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((uniFacialRecognitionVerify.StartFacialRecognitionVerifySuccess) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(uniFacialRecognitionVerify.StartFacialRecognitionVerifySuccess) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StartFacialRecognitionVerifySuccess",
+                            "printedName": "uniFacialRecognitionVerify.StartFacialRecognitionVerifySuccess",
+                            "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifySuccess"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptions(im)success",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7OptionsC7successyAA0ebcD7SuccessCcSgvg",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((uniFacialRecognitionVerify.StartFacialRecognitionVerifySuccess) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(uniFacialRecognitionVerify.StartFacialRecognitionVerifySuccess) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "StartFacialRecognitionVerifySuccess",
+                            "printedName": "uniFacialRecognitionVerify.StartFacialRecognitionVerifySuccess",
+                            "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifySuccess"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptions(im)setSuccess:",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7OptionsC7successyAA0ebcD7SuccessCcSgvs",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26uniFacialRecognitionVerify05StartbcD7OptionsC7successyAA0ebcD7SuccessCcSgvM",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7OptionsC7successyAA0ebcD7SuccessCcSgvM",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fail",
+            "printedName": "fail",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((any uniFacialRecognitionVerify.IFacialRecognitionVerifyError) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any uniFacialRecognitionVerify.IFacialRecognitionVerifyError) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IFacialRecognitionVerifyError",
+                        "printedName": "any uniFacialRecognitionVerify.IFacialRecognitionVerifyError",
+                        "usr": "s:26uniFacialRecognitionVerify07IFacialcD5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:26uniFacialRecognitionVerify05StartbcD7OptionsC4failyAA07IFacialcD5Error_pcSgvp",
+            "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7OptionsC4failyAA07IFacialcD5Error_pcSgvp",
+            "moduleName": "uniFacialRecognitionVerify",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((any uniFacialRecognitionVerify.IFacialRecognitionVerifyError) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(any uniFacialRecognitionVerify.IFacialRecognitionVerifyError) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "IFacialRecognitionVerifyError",
+                            "printedName": "any uniFacialRecognitionVerify.IFacialRecognitionVerifyError",
+                            "usr": "s:26uniFacialRecognitionVerify07IFacialcD5ErrorP"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26uniFacialRecognitionVerify05StartbcD7OptionsC4failyAA07IFacialcD5Error_pcSgvg",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7OptionsC4failyAA07IFacialcD5Error_pcSgvg",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((any uniFacialRecognitionVerify.IFacialRecognitionVerifyError) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(any uniFacialRecognitionVerify.IFacialRecognitionVerifyError) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "IFacialRecognitionVerifyError",
+                            "printedName": "any uniFacialRecognitionVerify.IFacialRecognitionVerifyError",
+                            "usr": "s:26uniFacialRecognitionVerify07IFacialcD5ErrorP"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26uniFacialRecognitionVerify05StartbcD7OptionsC4failyAA07IFacialcD5Error_pcSgvs",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7OptionsC4failyAA07IFacialcD5Error_pcSgvs",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26uniFacialRecognitionVerify05StartbcD7OptionsC4failyAA07IFacialcD5Error_pcSgvM",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7OptionsC4failyAA07IFacialcD5Error_pcSgvM",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "complete",
+            "printedName": "complete",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Any) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Any) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptions(py)complete",
+            "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7OptionsC8completeyypcSgvp",
+            "moduleName": "uniFacialRecognitionVerify",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Any) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Any) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptions(im)complete",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7OptionsC8completeyypcSgvg",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Any) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Any) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptions(im)setComplete:",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7OptionsC8completeyypcSgvs",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26uniFacialRecognitionVerify05StartbcD7OptionsC8completeyypcSgvM",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7OptionsC8completeyypcSgvM",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Subscript",
+            "name": "subscript",
+            "printedName": "subscript(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Subscript",
+            "usr": "s:26uniFacialRecognitionVerify05StartbcD7OptionsCyypSgSScip",
+            "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7OptionsCyypSgSScip",
+            "moduleName": "uniFacialRecognitionVerify",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptions(im)objectForKeyedSubscript:",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7OptionsCyypSgSScig",
+                "moduleName": "uniFacialRecognitionVerify",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptions(im)setObject:forKeyedSubscript:",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7OptionsCyypSgSScis",
+                "moduleName": "uniFacialRecognitionVerify",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26uniFacialRecognitionVerify05StartbcD7OptionsCyypSgSSciM",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7OptionsCyypSgSSciM",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StartFacialRecognitionVerifyOptions",
+                "printedName": "uniFacialRecognitionVerify.StartFacialRecognitionVerifyOptions",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptions"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptions(im)init",
+            "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7OptionsCACycfc",
+            "moduleName": "uniFacialRecognitionVerify",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StartFacialRecognitionVerifyOptions",
+                "printedName": "uniFacialRecognitionVerify.StartFacialRecognitionVerifyOptions",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptions"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UTSJSONObject",
+                "printedName": "DCloudUTSFoundation.UTSJSONObject",
+                "usr": "c:@M@DCloudUTSFoundation@objc(cs)UTSJSONObject"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptions(im)init:",
+            "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7OptionsCyAC19DCloudUTSFoundation13UTSJSONObjectCcfc",
+            "moduleName": "uniFacialRecognitionVerify",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptions",
+        "mangledName": "$s26uniFacialRecognitionVerify05StartbcD7OptionsC",
+        "moduleName": "uniFacialRecognitionVerify",
+        "objc_name": "UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptions",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "UTSObject",
+            "printedName": "UTSObject",
+            "usr": "s:19DCloudUTSFoundation9UTSObjectP",
+            "mangledName": "$s19DCloudUTSFoundation9UTSObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "IUTSObject",
+            "printedName": "IUTSObject",
+            "usr": "s:19DCloudUTSFoundation10IUTSObjectP",
+            "mangledName": "$s19DCloudUTSFoundation10IUTSObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DCUTSSequence",
+            "printedName": "DCUTSSequence",
+            "usr": "s:19DCloudUTSFoundation13DCUTSSequenceP",
+            "mangledName": "$s19DCloudUTSFoundation13DCUTSSequenceP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DCUniIterator",
+                    "printedName": "DCloudUTSFoundation.DCUniIterator",
+                    "usr": "s:19DCloudUTSFoundation13DCUniIteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "UniError_StartFacialRecognitionVerify",
+        "printedName": "UniError_StartFacialRecognitionVerify",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:26uniFacialRecognitionVerify014UniError_StartbcD0SSvp",
+        "mangledName": "$s26uniFacialRecognitionVerify014UniError_StartbcD0SSvp",
+        "moduleName": "uniFacialRecognitionVerify",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:26uniFacialRecognitionVerify014UniError_StartbcD0SSvg",
+            "mangledName": "$s26uniFacialRecognitionVerify014UniError_StartbcD0SSvg",
+            "moduleName": "uniFacialRecognitionVerify",
+            "implicit": true,
+            "accessorKind": "get"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Set",
+            "printedName": "Set()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:26uniFacialRecognitionVerify014UniError_StartbcD0SSvs",
+            "mangledName": "$s26uniFacialRecognitionVerify014UniError_StartbcD0SSvs",
+            "moduleName": "uniFacialRecognitionVerify",
+            "implicit": true,
+            "accessorKind": "set"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Modify",
+            "printedName": "Modify()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:26uniFacialRecognitionVerify014UniError_StartbcD0SSvM",
+            "mangledName": "$s26uniFacialRecognitionVerify014UniError_StartbcD0SSvM",
+            "moduleName": "uniFacialRecognitionVerify",
+            "implicit": true,
+            "accessorKind": "_modify"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "FacialRecognitionVerifyUniErrors",
+        "printedName": "FacialRecognitionVerifyUniErrors",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Dictionary",
+            "printedName": "[Foundation.NSNumber : Swift.String]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSNumber",
+                "printedName": "Foundation.NSNumber",
+                "usr": "c:objc(cs)NSNumber"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "usr": "s:SD"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:26uniFacialRecognitionVerify0bcD9UniErrorsSDySo8NSNumberCSSGvp",
+        "mangledName": "$s26uniFacialRecognitionVerify0bcD9UniErrorsSDySo8NSNumberCSSGvp",
+        "moduleName": "uniFacialRecognitionVerify",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Foundation.NSNumber : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:26uniFacialRecognitionVerify0bcD9UniErrorsSDySo8NSNumberCSSGvg",
+            "mangledName": "$s26uniFacialRecognitionVerify0bcD9UniErrorsSDySo8NSNumberCSSGvg",
+            "moduleName": "uniFacialRecognitionVerify",
+            "implicit": true,
+            "accessorKind": "get"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Set",
+            "printedName": "Set()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Foundation.NSNumber : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:26uniFacialRecognitionVerify0bcD9UniErrorsSDySo8NSNumberCSSGvs",
+            "mangledName": "$s26uniFacialRecognitionVerify0bcD9UniErrorsSDySo8NSNumberCSSGvs",
+            "moduleName": "uniFacialRecognitionVerify",
+            "implicit": true,
+            "accessorKind": "set"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Modify",
+            "printedName": "Modify()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:26uniFacialRecognitionVerify0bcD9UniErrorsSDySo8NSNumberCSSGvM",
+            "mangledName": "$s26uniFacialRecognitionVerify0bcD9UniErrorsSDySo8NSNumberCSSGvM",
+            "moduleName": "uniFacialRecognitionVerify",
+            "implicit": true,
+            "accessorKind": "_modify"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FacialRecognitionVerifyErrorImpl",
+        "printedName": "FacialRecognitionVerifyErrorImpl",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FacialRecognitionVerifyErrorImpl",
+                "printedName": "uniFacialRecognitionVerify.FacialRecognitionVerifyErrorImpl",
+                "usr": "s:26uniFacialRecognitionVerify0bcD9ErrorImplC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSNumber",
+                "printedName": "Foundation.NSNumber",
+                "usr": "c:objc(cs)NSNumber"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DCloudUTSFoundation.SourceError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SourceError",
+                    "printedName": "DCloudUTSFoundation.SourceError",
+                    "usr": "c:@M@DCloudUTSFoundation@objc(cs)SourceError"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:26uniFacialRecognitionVerify0bcD9ErrorImplCyACSo8NSNumberC_19DCloudUTSFoundation06SourceE0CSgtcfc",
+            "mangledName": "$s26uniFacialRecognitionVerify0bcD9ErrorImplCyACSo8NSNumberC_19DCloudUTSFoundation06SourceE0CSgtcfc",
+            "moduleName": "uniFacialRecognitionVerify",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:_:_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FacialRecognitionVerifyErrorImpl",
+                "printedName": "uniFacialRecognitionVerify.FacialRecognitionVerifyErrorImpl",
+                "usr": "s:26uniFacialRecognitionVerify0bcD9ErrorImplC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSNumber",
+                "printedName": "Foundation.NSNumber",
+                "usr": "c:objc(cs)NSNumber"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DCloudUTSFoundation.UTSJSONObject?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTSJSONObject",
+                    "printedName": "DCloudUTSFoundation.UTSJSONObject",
+                    "usr": "c:@M@DCloudUTSFoundation@objc(cs)UTSJSONObject"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:26uniFacialRecognitionVerify0bcD9ErrorImplCyACSS_So8NSNumberCSSypSg19DCloudUTSFoundation13UTSJSONObjectCSgtcfc",
+            "mangledName": "$s26uniFacialRecognitionVerify0bcD9ErrorImplCyACSS_So8NSNumberCSSypSg19DCloudUTSFoundation13UTSJSONObjectCSgtcfc",
+            "moduleName": "uniFacialRecognitionVerify",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init:::::",
+            "declAttributes": [
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FacialRecognitionVerifyErrorImpl",
+                "printedName": "uniFacialRecognitionVerify.FacialRecognitionVerifyErrorImpl",
+                "usr": "s:26uniFacialRecognitionVerify0bcD9ErrorImplC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:26uniFacialRecognitionVerify0bcD9ErrorImplCACycfc",
+            "mangledName": "$s26uniFacialRecognitionVerify0bcD9ErrorImplCACycfc",
+            "moduleName": "uniFacialRecognitionVerify",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:26uniFacialRecognitionVerify0bcD9ErrorImplC",
+        "mangledName": "$s26uniFacialRecognitionVerify0bcD9ErrorImplC",
+        "moduleName": "uniFacialRecognitionVerify",
+        "objc_name": "UTSSDKModulesDCloudUniFacialRecognitionVerifyFacialRecognitionVerifyErrorImpl",
+        "declAttributes": [
+          "ObjCRuntimeName",
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@DCloudUTSFoundation@objc(cs)UniError",
+        "superclassNames": [
+          "DCloudUTSFoundation.UniError",
+          "DCloudUTSFoundation.UTSError",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "IFacialRecognitionVerifyError",
+            "printedName": "IFacialRecognitionVerifyError",
+            "usr": "s:26uniFacialRecognitionVerify07IFacialcD5ErrorP",
+            "mangledName": "$s26uniFacialRecognitionVerify07IFacialcD5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "IUniError",
+            "printedName": "IUniError",
+            "usr": "s:19DCloudUTSFoundation9IUniErrorP",
+            "mangledName": "$s19DCloudUTSFoundation9IUniErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AsyncApiResult",
+            "printedName": "AsyncApiResult",
+            "usr": "s:19DCloudUTSFoundation14AsyncApiResultP",
+            "mangledName": "$s19DCloudUTSFoundation14AsyncApiResultP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomNSError",
+            "printedName": "CustomNSError",
+            "usr": "s:10Foundation13CustomNSErrorP",
+            "mangledName": "$s10Foundation13CustomNSErrorP"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "isLoadService",
+        "printedName": "isLoadService",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:26uniFacialRecognitionVerify13isLoadServiceSbvp",
+        "mangledName": "$s26uniFacialRecognitionVerify13isLoadServiceSbvp",
+        "moduleName": "uniFacialRecognitionVerify",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:26uniFacialRecognitionVerify13isLoadServiceSbvg",
+            "mangledName": "$s26uniFacialRecognitionVerify13isLoadServiceSbvg",
+            "moduleName": "uniFacialRecognitionVerify",
+            "implicit": true,
+            "accessorKind": "get"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Set",
+            "printedName": "Set()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:26uniFacialRecognitionVerify13isLoadServiceSbvs",
+            "mangledName": "$s26uniFacialRecognitionVerify13isLoadServiceSbvs",
+            "moduleName": "uniFacialRecognitionVerify",
+            "implicit": true,
+            "accessorKind": "set"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Modify",
+            "printedName": "Modify()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:26uniFacialRecognitionVerify13isLoadServiceSbvM",
+            "mangledName": "$s26uniFacialRecognitionVerify13isLoadServiceSbvM",
+            "moduleName": "uniFacialRecognitionVerify",
+            "implicit": true,
+            "accessorKind": "_modify"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "faceAuth",
+        "printedName": "faceAuth",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "FacialRecognition",
+            "printedName": "uniFacialRecognitionVerify.FacialRecognition",
+            "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyFacialRecognition"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:26uniFacialRecognitionVerify8faceAuthAA0bC0Cvp",
+        "mangledName": "$s26uniFacialRecognitionVerify8faceAuthAA0bC0Cvp",
+        "moduleName": "uniFacialRecognitionVerify",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FacialRecognition",
+                "printedName": "uniFacialRecognitionVerify.FacialRecognition",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyFacialRecognition"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:26uniFacialRecognitionVerify8faceAuthAA0bC0Cvg",
+            "mangledName": "$s26uniFacialRecognitionVerify8faceAuthAA0bC0Cvg",
+            "moduleName": "uniFacialRecognitionVerify",
+            "implicit": true,
+            "accessorKind": "get"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Set",
+            "printedName": "Set()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FacialRecognition",
+                "printedName": "uniFacialRecognitionVerify.FacialRecognition",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyFacialRecognition"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:26uniFacialRecognitionVerify8faceAuthAA0bC0Cvs",
+            "mangledName": "$s26uniFacialRecognitionVerify8faceAuthAA0bC0Cvs",
+            "moduleName": "uniFacialRecognitionVerify",
+            "implicit": true,
+            "accessorKind": "set"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Modify",
+            "printedName": "Modify()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:26uniFacialRecognitionVerify8faceAuthAA0bC0CvM",
+            "mangledName": "$s26uniFacialRecognitionVerify8faceAuthAA0bC0CvM",
+            "moduleName": "uniFacialRecognitionVerify",
+            "implicit": true,
+            "accessorKind": "_modify"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "startFacialRecognitionVerify",
+        "printedName": "startFacialRecognitionVerify",
+        "children": [
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "(uniFacialRecognitionVerify.StartFacialRecognitionVerifyOptions) -> ()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StartFacialRecognitionVerifyOptions",
+                "printedName": "uniFacialRecognitionVerify.StartFacialRecognitionVerifyOptions",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptions"
+              }
+            ]
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:26uniFacialRecognitionVerify05startbcD0yyAA05StartbcD7OptionsCcvp",
+        "mangledName": "$s26uniFacialRecognitionVerify05startbcD0yyAA05StartbcD7OptionsCcvp",
+        "moduleName": "uniFacialRecognitionVerify",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(uniFacialRecognitionVerify.StartFacialRecognitionVerifyOptions) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StartFacialRecognitionVerifyOptions",
+                    "printedName": "uniFacialRecognitionVerify.StartFacialRecognitionVerifyOptions",
+                    "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptions"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:26uniFacialRecognitionVerify05startbcD0yyAA05StartbcD7OptionsCcvg",
+            "mangledName": "$s26uniFacialRecognitionVerify05startbcD0yyAA05StartbcD7OptionsCcvg",
+            "moduleName": "uniFacialRecognitionVerify",
+            "implicit": true,
+            "accessorKind": "get"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Set",
+            "printedName": "Set()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(uniFacialRecognitionVerify.StartFacialRecognitionVerifyOptions) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StartFacialRecognitionVerifyOptions",
+                    "printedName": "uniFacialRecognitionVerify.StartFacialRecognitionVerifyOptions",
+                    "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptions"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:26uniFacialRecognitionVerify05startbcD0yyAA05StartbcD7OptionsCcvs",
+            "mangledName": "$s26uniFacialRecognitionVerify05startbcD0yyAA05StartbcD7OptionsCcvs",
+            "moduleName": "uniFacialRecognitionVerify",
+            "implicit": true,
+            "accessorKind": "set"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Modify",
+            "printedName": "Modify()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:26uniFacialRecognitionVerify05startbcD0yyAA05StartbcD7OptionsCcvM",
+            "mangledName": "$s26uniFacialRecognitionVerify05startbcD0yyAA05StartbcD7OptionsCcvM",
+            "moduleName": "uniFacialRecognitionVerify",
+            "implicit": true,
+            "accessorKind": "_modify"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "getFacialRecognitionMetaInfo",
+        "printedName": "getFacialRecognitionMetaInfo",
+        "children": [
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "() -> Swift.String",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ]
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:26uniFacialRecognitionVerify03getbC8MetaInfoSSycvp",
+        "mangledName": "$s26uniFacialRecognitionVerify03getbC8MetaInfoSSycvp",
+        "moduleName": "uniFacialRecognitionVerify",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> Swift.String",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:26uniFacialRecognitionVerify03getbC8MetaInfoSSycvg",
+            "mangledName": "$s26uniFacialRecognitionVerify03getbC8MetaInfoSSycvg",
+            "moduleName": "uniFacialRecognitionVerify",
+            "implicit": true,
+            "accessorKind": "get"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Set",
+            "printedName": "Set()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> Swift.String",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:26uniFacialRecognitionVerify03getbC8MetaInfoSSycvs",
+            "mangledName": "$s26uniFacialRecognitionVerify03getbC8MetaInfoSSycvs",
+            "moduleName": "uniFacialRecognitionVerify",
+            "implicit": true,
+            "accessorKind": "set"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Modify",
+            "printedName": "Modify()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:26uniFacialRecognitionVerify03getbC8MetaInfoSSycvM",
+            "mangledName": "$s26uniFacialRecognitionVerify03getbC8MetaInfoSSycvM",
+            "moduleName": "uniFacialRecognitionVerify",
+            "implicit": true,
+            "accessorKind": "_modify"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FacialRecognition",
+        "printedName": "FacialRecognition",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initSDK",
+            "printedName": "initSDK()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyFacialRecognition(im)initSDK",
+            "mangledName": "$s26uniFacialRecognitionVerify0bC0C7initSDKyyF",
+            "moduleName": "uniFacialRecognitionVerify",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startVerify",
+            "printedName": "startVerify(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StartFacialRecognitionVerifyOptions",
+                "printedName": "uniFacialRecognitionVerify.StartFacialRecognitionVerifyOptions",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptions"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyFacialRecognition(im)startVerify:",
+            "mangledName": "$s26uniFacialRecognitionVerify0bC0C05startD0yyAA05StartbcD7OptionsCF",
+            "moduleName": "uniFacialRecognitionVerify",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getMetaInfo",
+            "printedName": "getMetaInfo()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyFacialRecognition(im)getMetaInfo",
+            "mangledName": "$s26uniFacialRecognitionVerify0bC0C11getMetaInfoSSyF",
+            "moduleName": "uniFacialRecognitionVerify",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FacialRecognition",
+                "printedName": "uniFacialRecognitionVerify.FacialRecognition",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyFacialRecognition"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyFacialRecognition(im)init",
+            "mangledName": "$s26uniFacialRecognitionVerify0bC0CACycfc",
+            "moduleName": "uniFacialRecognitionVerify",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyFacialRecognition",
+        "mangledName": "$s26uniFacialRecognitionVerify0bC0C",
+        "moduleName": "uniFacialRecognitionVerify",
+        "objc_name": "UTSSDKModulesDCloudUniFacialRecognitionVerifyFacialRecognition",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StartFacialRecognitionVerifyOptionsJSONObject",
+        "printedName": "StartFacialRecognitionVerifyOptionsJSONObject",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "certifyId",
+            "printedName": "certifyId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptionsJSONObject(py)certifyId",
+            "mangledName": "$s26uniFacialRecognitionVerify05StartbcD17OptionsJSONObjectC9certifyIdSSSgvp",
+            "moduleName": "uniFacialRecognitionVerify",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptionsJSONObject(im)certifyId",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD17OptionsJSONObjectC9certifyIdSSSgvg",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptionsJSONObject(im)setCertifyId:",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD17OptionsJSONObjectC9certifyIdSSSgvs",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26uniFacialRecognitionVerify05StartbcD17OptionsJSONObjectC9certifyIdSSSgvM",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD17OptionsJSONObjectC9certifyIdSSSgvM",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "progressBarColor",
+            "printedName": "progressBarColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptionsJSONObject(py)progressBarColor",
+            "mangledName": "$s26uniFacialRecognitionVerify05StartbcD17OptionsJSONObjectC16progressBarColorSSSgvp",
+            "moduleName": "uniFacialRecognitionVerify",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptionsJSONObject(im)progressBarColor",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD17OptionsJSONObjectC16progressBarColorSSSgvg",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptionsJSONObject(im)setProgressBarColor:",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD17OptionsJSONObjectC16progressBarColorSSSgvs",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26uniFacialRecognitionVerify05StartbcD17OptionsJSONObjectC16progressBarColorSSSgvM",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD17OptionsJSONObjectC16progressBarColorSSSgvM",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "screenOrientation",
+            "printedName": "screenOrientation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptionsJSONObject(py)screenOrientation",
+            "mangledName": "$s26uniFacialRecognitionVerify05StartbcD17OptionsJSONObjectC17screenOrientationSSSgvp",
+            "moduleName": "uniFacialRecognitionVerify",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptionsJSONObject(im)screenOrientation",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD17OptionsJSONObjectC17screenOrientationSSSgvg",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptionsJSONObject(im)setScreenOrientation:",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD17OptionsJSONObjectC17screenOrientationSSSgvs",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26uniFacialRecognitionVerify05StartbcD17OptionsJSONObjectC17screenOrientationSSSgvM",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD17OptionsJSONObjectC17screenOrientationSSSgvM",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DCloudUTSFoundation.UTSCallback?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTSCallback",
+                    "printedName": "DCloudUTSFoundation.UTSCallback",
+                    "usr": "c:@M@DCloudUTSFoundation@objc(cs)UTSCallback"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptionsJSONObject(py)success",
+            "mangledName": "$s26uniFacialRecognitionVerify05StartbcD17OptionsJSONObjectC7success19DCloudUTSFoundation11UTSCallbackCSgvp",
+            "moduleName": "uniFacialRecognitionVerify",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DCloudUTSFoundation.UTSCallback?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UTSCallback",
+                        "printedName": "DCloudUTSFoundation.UTSCallback",
+                        "usr": "c:@M@DCloudUTSFoundation@objc(cs)UTSCallback"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptionsJSONObject(im)success",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD17OptionsJSONObjectC7success19DCloudUTSFoundation11UTSCallbackCSgvg",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DCloudUTSFoundation.UTSCallback?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UTSCallback",
+                        "printedName": "DCloudUTSFoundation.UTSCallback",
+                        "usr": "c:@M@DCloudUTSFoundation@objc(cs)UTSCallback"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptionsJSONObject(im)setSuccess:",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD17OptionsJSONObjectC7success19DCloudUTSFoundation11UTSCallbackCSgvs",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26uniFacialRecognitionVerify05StartbcD17OptionsJSONObjectC7success19DCloudUTSFoundation11UTSCallbackCSgvM",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD17OptionsJSONObjectC7success19DCloudUTSFoundation11UTSCallbackCSgvM",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fail",
+            "printedName": "fail",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DCloudUTSFoundation.UTSCallback?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTSCallback",
+                    "printedName": "DCloudUTSFoundation.UTSCallback",
+                    "usr": "c:@M@DCloudUTSFoundation@objc(cs)UTSCallback"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptionsJSONObject(py)fail",
+            "mangledName": "$s26uniFacialRecognitionVerify05StartbcD17OptionsJSONObjectC4fail19DCloudUTSFoundation11UTSCallbackCSgvp",
+            "moduleName": "uniFacialRecognitionVerify",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DCloudUTSFoundation.UTSCallback?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UTSCallback",
+                        "printedName": "DCloudUTSFoundation.UTSCallback",
+                        "usr": "c:@M@DCloudUTSFoundation@objc(cs)UTSCallback"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptionsJSONObject(im)fail",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD17OptionsJSONObjectC4fail19DCloudUTSFoundation11UTSCallbackCSgvg",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DCloudUTSFoundation.UTSCallback?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UTSCallback",
+                        "printedName": "DCloudUTSFoundation.UTSCallback",
+                        "usr": "c:@M@DCloudUTSFoundation@objc(cs)UTSCallback"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptionsJSONObject(im)setFail:",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD17OptionsJSONObjectC4fail19DCloudUTSFoundation11UTSCallbackCSgvs",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26uniFacialRecognitionVerify05StartbcD17OptionsJSONObjectC4fail19DCloudUTSFoundation11UTSCallbackCSgvM",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD17OptionsJSONObjectC4fail19DCloudUTSFoundation11UTSCallbackCSgvM",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "complete",
+            "printedName": "complete",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DCloudUTSFoundation.UTSCallback?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTSCallback",
+                    "printedName": "DCloudUTSFoundation.UTSCallback",
+                    "usr": "c:@M@DCloudUTSFoundation@objc(cs)UTSCallback"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptionsJSONObject(py)complete",
+            "mangledName": "$s26uniFacialRecognitionVerify05StartbcD17OptionsJSONObjectC8complete19DCloudUTSFoundation11UTSCallbackCSgvp",
+            "moduleName": "uniFacialRecognitionVerify",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DCloudUTSFoundation.UTSCallback?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UTSCallback",
+                        "printedName": "DCloudUTSFoundation.UTSCallback",
+                        "usr": "c:@M@DCloudUTSFoundation@objc(cs)UTSCallback"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptionsJSONObject(im)complete",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD17OptionsJSONObjectC8complete19DCloudUTSFoundation11UTSCallbackCSgvg",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DCloudUTSFoundation.UTSCallback?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UTSCallback",
+                        "printedName": "DCloudUTSFoundation.UTSCallback",
+                        "usr": "c:@M@DCloudUTSFoundation@objc(cs)UTSCallback"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptionsJSONObject(im)setComplete:",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD17OptionsJSONObjectC8complete19DCloudUTSFoundation11UTSCallbackCSgvs",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:26uniFacialRecognitionVerify05StartbcD17OptionsJSONObjectC8complete19DCloudUTSFoundation11UTSCallbackCSgvM",
+                "mangledName": "$s26uniFacialRecognitionVerify05StartbcD17OptionsJSONObjectC8complete19DCloudUTSFoundation11UTSCallbackCSgvM",
+                "moduleName": "uniFacialRecognitionVerify",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StartFacialRecognitionVerifyOptionsJSONObject",
+                "printedName": "uniFacialRecognitionVerify.StartFacialRecognitionVerifyOptionsJSONObject",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptionsJSONObject"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptionsJSONObject(im)init",
+            "mangledName": "$s26uniFacialRecognitionVerify05StartbcD17OptionsJSONObjectCACycfc",
+            "moduleName": "uniFacialRecognitionVerify",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptionsJSONObject",
+        "mangledName": "$s26uniFacialRecognitionVerify05StartbcD17OptionsJSONObjectC",
+        "moduleName": "uniFacialRecognitionVerify",
+        "objc_name": "UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptionsJSONObject",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "startFacialRecognitionVerifyByJs",
+        "printedName": "startFacialRecognitionVerifyByJs(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "StartFacialRecognitionVerifyOptionsJSONObject",
+            "printedName": "uniFacialRecognitionVerify.StartFacialRecognitionVerifyOptionsJSONObject",
+            "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptionsJSONObject"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:26uniFacialRecognitionVerify05startbcD4ByJsyyAA05StartbcD17OptionsJSONObjectCF",
+        "mangledName": "$s26uniFacialRecognitionVerify05startbcD4ByJsyyAA05StartbcD17OptionsJSONObjectCF",
+        "moduleName": "uniFacialRecognitionVerify",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "getFacialRecognitionMetaInfoByJs",
+        "printedName": "getFacialRecognitionMetaInfoByJs()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:26uniFacialRecognitionVerify03getbC12MetaInfoByJsSSyF",
+        "mangledName": "$s26uniFacialRecognitionVerify03getbC12MetaInfoByJsSSyF",
+        "moduleName": "uniFacialRecognitionVerify",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UTSSDKModulesDCloudUniFacialRecognitionVerifyIndexSwift",
+        "printedName": "UTSSDKModulesDCloudUniFacialRecognitionVerifyIndexSwift",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "s_startFacialRecognitionVerifyByJs",
+            "printedName": "s_startFacialRecognitionVerifyByJs(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "StartFacialRecognitionVerifyOptionsJSONObject",
+                "printedName": "uniFacialRecognitionVerify.StartFacialRecognitionVerifyOptionsJSONObject",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyStartFacialRecognitionVerifyOptionsJSONObject"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyIndexSwift(cm)s_startFacialRecognitionVerifyByJs:",
+            "mangledName": "$s26uniFacialRecognitionVerify022UTSSDKModulesDCloudUnibcD10IndexSwiftC07s_startbcD4ByJsyyAA05StartbcD17OptionsJSONObjectCFZ",
+            "moduleName": "uniFacialRecognitionVerify",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "s_getFacialRecognitionMetaInfoByJs",
+            "printedName": "s_getFacialRecognitionMetaInfoByJs()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyIndexSwift(cm)s_getFacialRecognitionMetaInfoByJs",
+            "mangledName": "$s26uniFacialRecognitionVerify022UTSSDKModulesDCloudUnibcD10IndexSwiftC05s_getbC12MetaInfoByJsSSyFZ",
+            "moduleName": "uniFacialRecognitionVerify",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UTSSDKModulesDCloudUniFacialRecognitionVerifyIndexSwift",
+                "printedName": "uniFacialRecognitionVerify.UTSSDKModulesDCloudUniFacialRecognitionVerifyIndexSwift",
+                "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyIndexSwift"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyIndexSwift(im)init",
+            "mangledName": "$s26uniFacialRecognitionVerify022UTSSDKModulesDCloudUnibcD10IndexSwiftCACycfc",
+            "moduleName": "uniFacialRecognitionVerify",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@uniFacialRecognitionVerify@objc(cs)UTSSDKModulesDCloudUniFacialRecognitionVerifyIndexSwift",
+        "mangledName": "$s26uniFacialRecognitionVerify022UTSSDKModulesDCloudUnibcD10IndexSwiftC",
+        "moduleName": "uniFacialRecognitionVerify",
+        "objc_name": "UTSSDKModulesDCloudUniFacialRecognitionVerifyIndexSwift",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/srv\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-facialRecognitionVerify\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "StringLiteral",
+      "offset": 4340,
+      "length": 34,
+      "value": "\"uni-startFacialRecognitionVerify\""
+    },
+    {
+      "filePath": "\/srv\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-facialRecognitionVerify\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4465,
+      "length": 5,
+      "value": "10001"
+    },
+    {
+      "filePath": "\/srv\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-facialRecognitionVerify\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "StringLiteral",
+      "offset": 4480,
+      "length": 24,
+      "value": "\"certifyId 不能为空\""
+    },
+    {
+      "filePath": "\/srv\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-facialRecognitionVerify\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4526,
+      "length": 5,
+      "value": "10002"
+    },
+    {
+      "filePath": "\/srv\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-facialRecognitionVerify\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "StringLiteral",
+      "offset": 4541,
+      "length": 23,
+      "value": "\"当前设备不支持\""
+    },
+    {
+      "filePath": "\/srv\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-facialRecognitionVerify\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4586,
+      "length": 5,
+      "value": "10010"
+    },
+    {
+      "filePath": "\/srv\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-facialRecognitionVerify\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "StringLiteral",
+      "offset": 4601,
+      "length": 14,
+      "value": "\"刷脸异常\""
+    },
+    {
+      "filePath": "\/srv\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-facialRecognitionVerify\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4637,
+      "length": 5,
+      "value": "10012"
+    },
+    {
+      "filePath": "\/srv\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-facialRecognitionVerify\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "StringLiteral",
+      "offset": 4652,
+      "length": 14,
+      "value": "\"网络异常\""
+    },
+    {
+      "filePath": "\/srv\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-facialRecognitionVerify\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4688,
+      "length": 5,
+      "value": "10011"
+    },
+    {
+      "filePath": "\/srv\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-facialRecognitionVerify\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "StringLiteral",
+      "offset": 4703,
+      "length": 14,
+      "value": "\"验证中断\""
+    },
+    {
+      "filePath": "\/srv\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-facialRecognitionVerify\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4739,
+      "length": 5,
+      "value": "10013"
+    },
+    {
+      "filePath": "\/srv\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-facialRecognitionVerify\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "StringLiteral",
+      "offset": 4754,
+      "length": 20,
+      "value": "\"刷脸验证失败\""
+    },
+    {
+      "filePath": "\/srv\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-facialRecognitionVerify\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4796,
+      "length": 5,
+      "value": "10020"
+    },
+    {
+      "filePath": "\/srv\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-facialRecognitionVerify\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "StringLiteral",
+      "offset": 4811,
+      "length": 26,
+      "value": "\"设备设置时间异常\""
+    },
+    {
+      "filePath": "\/srv\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-facialRecognitionVerify\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "StringLiteral",
+      "offset": 4959,
+      "length": 32,
+      "value": "\"uniFacialRecognitionVerify.FacialRecognitionVerifyErrorImpl\""
+    },
+    {
+      "filePath": "\/srv\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-facialRecognitionVerify\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "StringLiteral",
+      "offset": 4959,
+      "length": 32,
+      "value": "\"uniFacialRecognitionVerify.FacialRecognitionVerifyErrorImpl\""
+    },
+    {
+      "filePath": "\/srv\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-facialRecognitionVerify\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5390,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

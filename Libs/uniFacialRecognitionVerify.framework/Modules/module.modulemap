@@ -1,0 +1,11 @@
+framework module uniFacialRecognitionVerify {
+  umbrella header "uniFacialRecognitionVerify.h"
+  export *
+
+  module * { export * }
+}
+
+module uniFacialRecognitionVerify.Swift {
+  header "uniFacialRecognitionVerify-Swift.h"
+  requires objc
+}

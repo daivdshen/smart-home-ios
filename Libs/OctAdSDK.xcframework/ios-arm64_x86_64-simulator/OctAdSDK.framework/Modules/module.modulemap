@@ -1,0 +1,6 @@
+framework module OctAdSDK {
+  umbrella header "OctAdSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
