@@ -1,0 +1,11 @@
+framework module DCloudBigInt {
+  umbrella header "DCloudBigInt.h"
+
+  export *
+  module * { export * }
+}
+
+module DCloudBigInt.Swift {
+  header "DCloudBigInt-Swift.h"
+  requires objc
+}

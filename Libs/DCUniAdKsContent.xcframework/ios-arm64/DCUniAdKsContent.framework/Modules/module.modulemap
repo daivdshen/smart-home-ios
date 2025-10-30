@@ -1,0 +1,6 @@
+framework module DCUniAdKsContent {
+  umbrella header "DCUniAdKsContent.h"
+  export *
+
+  module * { export * }
+}
