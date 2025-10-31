@@ -11,7 +11,7 @@ source 'https://bitbucket.org/comelit/public-comelit-pods.git'
 use_frameworks! 
 
 target 'HBuilder' do # <- your app target name
-    project '/Users/david/Desktop/uniapp/SDK/HBuilder-ExampleDemo/HBuilder-Hello.xcodeproj'  #relative path to your app xcode project
+#    project '/Users/david/Desktop/uniapp/SDK/HBuilder-ExampleDemo/HBuilder-Hello.xcodeproj'  #relative path to your app xcode project
 
     #your application pods here
 

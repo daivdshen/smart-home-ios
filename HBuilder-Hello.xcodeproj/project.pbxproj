@@ -21,7 +21,6 @@
 		24AFD84E1CB50C4000C0F062 /* liblibCache.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24AFD8111CB50C3F00C0F062 /* liblibCache.a */; };
 		24AFD8521CB50C4000C0F062 /* liblibIO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24AFD8151CB50C4000C0F062 /* liblibIO.a */; };
 		24AFD8531CB50C4000C0F062 /* liblibLog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24AFD8161CB50C4000C0F062 /* liblibLog.a */; };
-		24AFD8551CB50C4000C0F062 /* liblibMedia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24AFD8181CB50C4000C0F062 /* liblibMedia.a */; };
 		24AFD8561CB50C4000C0F062 /* liblibMessage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24AFD8191CB50C4000C0F062 /* liblibMessage.a */; };
 		24AFD8571CB50C4000C0F062 /* liblibNativeObj.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24AFD81A1CB50C4000C0F062 /* liblibNativeObj.a */; };
 		24AFD8581CB50C4000C0F062 /* liblibNativeUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24AFD81B1CB50C4000C0F062 /* liblibNativeUI.a */; };
@@ -533,7 +532,6 @@
 				67566B1F2251DC3A00BDF218 /* liblibSqlite.a in Frameworks */,
 				24AFD84E1CB50C4000C0F062 /* liblibCache.a in Frameworks */,
 				24AFD8521CB50C4000C0F062 /* liblibIO.a in Frameworks */,
-				24AFD8551CB50C4000C0F062 /* liblibMedia.a in Frameworks */,
 				24AFD8561CB50C4000C0F062 /* liblibMessage.a in Frameworks */,
 				24AFD8571CB50C4000C0F062 /* liblibNativeObj.a in Frameworks */,
 				24AFD8581CB50C4000C0F062 /* liblibNativeUI.a in Frameworks */,
